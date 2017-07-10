@@ -1,23 +1,16 @@
 ### The Basics
 - Sublime 3 Text Editor. You can also use Atom but you will be responsible for updating, installing, configuring packages on atom on your own. 
-	- [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
-	- OX X 10.7 or later
-	- Open the dmg
-	- Be sure to drag the icon into your Application folder. 
-	- Eject the sublime text icon that is on your desktop.
 
 
 ### Basic Sublime Set Up
 - Drag sublime (from the Application Folder) into your toolbar, right click and lock it into your dock.
 - Open sublime -> View -> Show sidebar
-	This feature alone will save you hundreds of hours if not thousands throughout your engineering career. No joke.
+	This feature alone will save you hundreds of hours if not thousands throughout your journey. No joke.
 
 ### Symlink Sublime
 Let's set up a symbolic link to sublime so we can access it through a quick command in terminal.
 
 There's a few ways to do this based on each students' individual laptop user/admin privilege settings. 
-
-Try running these instructions first with me. If they don't work it's ok, we can run the next set together afterwards. If that doesn't work I will gladly work with you personally to get it set up.
 
 First Command
 - Close sublime.
@@ -34,7 +27,6 @@ First Command
 
 ### Git
 - confirm git is installed by typing `git` into terminal.
-	- if you get a message saying command 'git' is unknown, you are missing GIT and did not do your pre-work.
 
 ### Setting sublime as the global core editor for GIT
 - inside terminal, run the following...
@@ -43,11 +35,11 @@ First Command
 ### GitHub - Fork your repo on remote
 • Make sure you are logged into your github account.
 • Open this link, also make sure you bookmark it, you'll be checking it daily.
-[https://github.com/ga-students/WDI_NYC_OMEGA_SUPREME](https://github.com/ga-students/WDI_NYC_OMEGA_SUPREME)
+[https://github.com/gc-swim/main](https://github.com/gc-swim/main)
 • On the top right, click `fork` button.
 • You know you did it correctly if you're page is refreshed to YOUR github account's fork. It should look something like this...
 
-ex: `Joe21/WDI_NYC_OMEGA_SUPREME` under it, it will also say `forked from ga-students/WDI_NYC_OMEGA_SUPREME`
+ex: `alee90/gc-swim` under it, it will also say `forked from gc-swim/main`
 
 
 ### GitHub - Clone your forked repo into your local
@@ -58,8 +50,8 @@ ex: `Joe21/WDI_NYC_OMEGA_SUPREME` under it, it will also say `forked from ga-stu
   - Type `cd` and hit `enter`
 • Type the following into terminal when you are in your home directory, do not hit enter yet!
   - `git clone ` _paste your ssh_  Make sure there is a space between `clone` and the ssh you are pasting
-	- ex: `git clone git@github.com:Joe21/WDI_NYC_OMEGA_SUPREME.git`
-• You should now see the Omega Supreme folder on your computer.
+	- ex: `git clone git@github.com:alee90/main.git`
+• You should now see the main folder on your computer.
 
 
 ### GitHub - Set Up Your Upstream Remote
