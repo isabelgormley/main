@@ -208,4 +208,164 @@ BONUS. (USE GOOGLE IF YOU NEED HELP)
 9. Add a hyperlink to the page.  On HOVER, the link should change colors to ORANGE.
 
 10. Look up how to add a GOOGLE FONT to your page.  Change the font family of your entire page to your chosen font.
+
+### DIV/POSITIONING
+-------
+Why would we use divs?  
+
+WE CAN DIVIDE THINGS INTO CERTAIN SECTIONS ON THE PAGE!
+
+Example
+------
+
+```
+<body>
+	<div>
+		<p>Hello, I belong on the left</p>
+		<p>What?</p>
+	</div>
+	<div>
+		<p>Hello, I belong on the right!</p>
+		<p>WHAT?</p>
+	</div>
+</body>
+```
+
+HOW DO WE DIFFERENTIATE THE TWO divs?  
+
+We use IDs!
+
+```
+<body>
+	<div id='left'>
+		<p>Hello, I belong on the left</p>
+		<p>What?</p>
+	</div>
+	<div id='right'>
+		<p>Hello, I belong on the right!</p>
+		<p>WHAT?</p>
+	</div>
+</body>
+```
+WE CAN POSITION THINGS TO THE LEFT AND RIGHT SIDE OF THE PAGE!  OBSERVE THE CSS.
+
+```
+#left {
+	width: 200px;
+	border: 1px solid black;
+	background-color: papayawhip;
+	float: left;
+}
+
+#right {
+	width: 200px;
+	border: 1px solid black;
+	background-color: papayawhip;
+	float: right;
+}
+```
+
+We can manipulate things into specific positions as well!
+
+### POSITIONING: 
+
+Know difference between FIXED and RELATIVE.
+
+Fixed: whatever you say is fixed will stay in the same place, even if the page is scrolled up and down.
+Relative: Positioned 'relative' to its normal position.
+
+Let's see relative in action, now.
+
+```
+#left {
+	width: 200px;
+	border: 1px solid black;
+	background-color: papayawhip;
+	position: relative;
+	float: left;
+	left: 30px;
+}
+
+#right {
+	width: 200px;
+	border: 1px solid black;
+	background-color: papayawhip;
+	position: relative;
+	float: right;
+	right: 30px;
+}
+```
+
+WE CAN PUT DIVS INSIDE OTHER DIVS!
+
+```
+<body>
+	<div id='main-container'>
+		<div id='left'>
+			<p>Hello, I belong on the left</p>
+			<p>What?</p>
+		</div>
+		<div id='right'>
+			<p>Hello, I belong on the right!</p>
+			<p>WHAT?</p>
+		</div>
+	</div>
+</body>
+```
+```
+#main-container{
+	width: 300px;
+	height: 120px;
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+#left {
+	width: 100px;
+	border: 1px solid black;
+	background-color: papayawhip;
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#right {
+	width: 100px;
+	border: 1px solid black;
+	background-color: papayawhip;
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+```
+Below is what we're calling the CSS Box Model.  Check it out.  Looking at this should tell the difference between BORDER, MARGIN, and PADDING.  Whenever we say something like, margin-left, what that means is that we're PUSHING the content from the LEFT side of whatever you're pushing it from.<br>
+<img src="https://i.stack.imgur.com/PeSIJ.gif"/>
+
+Here's some additional resources you should look at.
+
+http://stackoverflow.com/questions/8969381/what-is-the-difference-between-display-inline-and-display-inline-block
+http://www.w3schools.com/css/css_positioning.asp
+
+### Resizing Images
+---------------
+Let's say we got an image from the internet, like...
+
+<img style="height: 150px; width: 200px;"src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Skittles-Louisiana-2003.jpg">
+
+I can resize it using measurements of HEIGHT, and WIDTH.  
+
+```
+img{
+	height: 100px;
+	width: 200px;
+}
+```
+
+Remember that I can assign ID's to images as well.  
+
+```
+
+
 	
