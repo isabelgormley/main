@@ -340,7 +340,7 @@ WE CAN PUT DIVS INSIDE OTHER DIVS!
 	margin-right: 30px;
 }
 ```
-Below is what we're calling the CSS Box Model.  Check it out.  Looking at this should tell the difference between BORDER, MARGIN, and PADDING.  Whenever we say something like, margin-left, what that means is that we're PUSHING the content from the LEFT side of whatever you're pushing it from.<br>
+Below is what we're calling the CSS Box Model.  Check it out.  Looking at this should tell the difference between BORDER, MARGIN, and PADDING.  Whenever we sa y something like, margin-left, what that means is that we're PUSHING the content from the LEFT side of whatever you're pushing it from.<br>
 <img src="https://i.stack.imgur.com/PeSIJ.gif"/>
 
 Here's some additional resources you should look at.
@@ -364,8 +364,4 @@ img{
 ```
 
 Remember that I can assign ID's to images as well.  
-
-```
-
-
 	
