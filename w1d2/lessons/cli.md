@@ -1,7 +1,5 @@
 # Terminal Basics & Navigating the File System
 
-===== LAPTOPS CLOSED =====
-
 ### Learning Objectives
 - Open apps and navigate your cpu through terminal
 - Summarize basic file system structure
@@ -19,8 +17,6 @@ Many devs utilize the command line everyday to interact with applications effici
 
 ### What is a shell?
 shell is simply a type of command line program, which contains a very simple, text-based user interface enabling us to access all of an operating system's services. It is, very simply, a program that accepts text as input and translates that text into the appropriate functions that you want your computer to run
-
-===== Open Laptops =====
 
 
 ### Terminal
@@ -64,8 +60,8 @@ Research the following together and describe to another what ping is a practical
 - Let's quit terminal
 `⌘-Q`
 
-##### Exercise 10 mins
-- Work in pairs. If someone does not have a partner, please feel free to work in a small group of 3!
+##### Exercise 
+- Work in pairs
 - Using just terminal and the command line, do the following.
 - If you don't recall all of the prework or see unfamiliar commands feel free to use the following reference and/or Google!
 

@@ -1,6 +1,4 @@
-# Git, Github & VCS
-
-===== Laptops Closed =====
+# Git, Github & Version Control
 
 ### Learning Objectives
 - Distinguish Git & Github (local vs remote)
