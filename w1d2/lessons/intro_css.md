@@ -24,7 +24,7 @@ If you don't know the syntax for how to use one of these tags, what should you f
 - store the entire p tag in a div
 - create an a tag to `www.nfl.com`
 - create an img tag with src set to something from google images (pic files end as .jpg/.jpeg/.png)
-- create a link to `www.giants.com` where the link is actually an image from above. Hint. [http://www.echoecho.com/htmllinks06.htm](http://www.echoecho.com/htmllinks06.htm)
+- create a link to `www.patriots.com` where the link is actually an image from above. Hint. [http://www.echoecho.com/htmllinks06.htm](http://www.echoecho.com/htmllinks06.htm)
 
 ### DOM
 Document Object Model. The DOM is a nice way of viewing and manipulating HTML dynamically. You don't have to know what that means. We'll talk much more in depth about DOM very soon but today let's get a sneak peak at how to look at the HTML of every webpage.
@@ -36,14 +36,14 @@ Document Object Model. The DOM is a nice way of viewing and manipulating HTML dy
 
 
 ### How to add CSS link tag to HTML file
-External Style Sheet: Include the link tag using a relative path (a file path)
 
-```
-<head>
-	<link rel="stylesheet" type="text/css" href="where the file is located">
-</head>
-```
-Internal Style Sheet: Put styling directly in head tag
+
+
+#### Inline Style Sheet:   
+
+```<p style="color:green;font-size:40px">This is a paragraph</p>``` 
+
+#### Internal Style Sheet: Put styling directly in head tag
 
 ```
 <head>
@@ -56,9 +56,13 @@ Internal Style Sheet: Put styling directly in head tag
 </head>
 ```
 
-Inline Style Sheet:   
+External Style Sheet: Include the link tag using a relative path (a file path)
 
-```<p style="color:green;font-size:40px">This is a paragraph</p>``` 
+```
+<head>
+	<link rel="stylesheet" type="text/css" href="where the file is located">
+</head>
+```
 
 ### Specificity 
 
