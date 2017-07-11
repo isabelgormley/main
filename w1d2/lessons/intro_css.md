@@ -9,6 +9,12 @@ Students will be able to...
 - Explain specificity
 - Add basic css properties and attributes
 
+### Pre-DO NOW
+
+[https://packagecontrol.io/packages/View%20In%20Browser](https://packagecontrol.io/packages/View%20In%20Browser)
+
+Go to this site and follow the directions r.e. opening your html files to chrome
+
 ### DO NOW
 If you don't know the syntax for how to use one of these tags, what should you first do?  Hint: interweb
 - h1 header with content "Welcome to Me!"
