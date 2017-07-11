@@ -4,7 +4,7 @@ Learning how to solve problems is fundamental to being a developer. In order to 
 
 Pseudocoding is all about breaking a problem down to its logical steps. As a developer, you can be faced with a 'wall of complexity' that will lead to paralysis; sometimes the most difficult part is knowing where to start. Taking some time just to think about, verbalize, or diagram a problem can give you all the clues you need to proceed. Often, it's a good idea to do this BEFORE you write any actual code. 
 
-Pseudocode is not... code.  Rather, pseudocode is the step-by-step thought process behind the code that you will eventually write.  You should write your pseudocode in short lines using basic grammar, as if an articulate ten-year old is writing it. For example, here's some pseudo code for making a lasagne:
+Pseudocode is not... code.  Rather, pseudocode is the step-by-step thought process behind the code that you will eventually write.  You should write your pseudocode in short lines using basic grammar, as if an articulate ten-year old is writing it. For example, here's some pseudo code for making lasagna:
 
  1. Pre-heat oven to 350 deg F
  2. Boil water for pasta
