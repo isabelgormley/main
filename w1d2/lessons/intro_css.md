@@ -29,7 +29,7 @@ Document Object Model. The DOM is a nice way of viewing and manipulating HTML dy
 - view page source
 
 
-###How to add CSS link tag to HTML file
+### How to add CSS link tag to HTML file
 External Style Sheet: Include the link tag using a relative path (a file path)
 
 ```
@@ -54,17 +54,17 @@ Inline Style Sheet:
 
 ```<p style="color:green;font-size:40px">This is a paragraph</p>``` 
 
-###Specificity 
+### Specificity 
 
 The reason CSS refers to a "cascade" is because styles have a specific order they're applied in - different levels of Specificity.  Where we define the styles and the selectors we use determine how the styling is applied to the DOM.
 
-####Hierarchy / level of importance goes from
+#### Hierarchy / level of importance goes from
 1. Inline 
 2. ID
 3. Class
 4. Element 
 
-###Selection in CSS
+### Selection in CSS
 - Multiple selectors ```h1, h2```
 - Ancestors/Descendants ```footer li```
 - ids
@@ -97,9 +97,9 @@ This is redunant code because there is only one id on the page.
 
 =========================================
 
-###IDs vs Classes (the real shit)
+### IDs vs Classes (the real shit)
 
-####ID's
+#### ID's
 ========
 
 Let's say, you have something like this.
@@ -150,7 +150,7 @@ So..
 
 REMEMBER: id's are realistically used to only name ONE element in a page.  Naming conventions are VERY IMPORTANT AS WELL.  Make sure your spelling is correct when you're trying to use id's.
 
-####CLASSES
+#### CLASSES
 =========
 ```
 <body>
@@ -171,7 +171,7 @@ REMEMBER: id's are realistically used to only name ONE element in a page.  Namin
 
 When we name CLASS in our CSS, know that it's with a period.  The difference between ID and CLASS right now is small.  For now, I want you to get used to the idea of using ID first.  If you have to reuse the name for some reason, change it to class.  You can use either/or throughout your page, it doesn't really matter too much.
 
-###Examples
+### Examples
 
 Create a new folder, call it CLASS CSS EXAMPLE.  Open Sublime and save an HTML and CSS file in that folder.  Show me when you'd need to use id/class, or if I want to adjust the whole entire tag as a whole.  Use your brains and think about what I'm asking for.
 
