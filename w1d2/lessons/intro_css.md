@@ -80,24 +80,12 @@ The reason CSS refers to a "cascade" is because styles have a specific order the
 1. font-size
 1. font-family: 
 	- "Times New Roman", Georgia, Serif
-1. font-weight
 1. text-align
-
-### Combining tag name, id, and class in CSS selectors
-
-Tag with Class Name ```article.important```
-
-Similarly Id with Class ```#special-section.important```
-
-Multiple Classes ```.important.active```
-
-This is redunant code because there is only one id on the page.  
-```div#special-section{...}```
 
 
 =========================================
 
-### IDs vs Classes (the real shit)
+### IDs vs Classes
 
 #### ID's
 ========
@@ -171,9 +159,22 @@ REMEMBER: id's are realistically used to only name ONE element in a page.  Namin
 
 When we name CLASS in our CSS, know that it's with a period.  The difference between ID and CLASS right now is small.  For now, I want you to get used to the idea of using ID first.  If you have to reuse the name for some reason, change it to class.  You can use either/or throughout your page, it doesn't really matter too much.
 
+
+### Combining tag name, id, and class in CSS selectors
+
+Tag with Class Name ```article.important```
+
+Similarly Id with Class ```#special-section.important```
+
+Multiple Classes ```.important.active```
+
+This is redunant code because there is only one id on the page.  
+```div#special-section{...}```
+
+
 ### Examples
 
-Create a new folder, call it CLASS CSS EXAMPLE.  Open Sublime and save an HTML and CSS file in that folder.  Show me when you'd need to use id/class, or if I want to adjust the whole entire tag as a whole.  Use your brains and think about what I'm asking for.
+Create a new folder.  Open Sublime and save an HTML and CSS file in that folder.  Show me when you'd need to use id/class, or if I want to adjust the whole entire tag as a whole.  Use your brains and think about what I'm asking for.
 
 1. I want to see 3 paragraphs.  They should ALL have a size of 14px. 
 
