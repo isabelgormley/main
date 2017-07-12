@@ -316,7 +316,7 @@ Now that you’ve defined keyframes for your animation, you have to call the ani
 
 #### Animation properties
 ```
-.box{
+#box{
   /*The name of your defined animation (after @keyframes)*/
   -webkit-animation-name: some-keyframe;
   /*How long the animation will run*/
@@ -342,9 +342,11 @@ Try constructing the animation illustrated on the Keyframes slide! Your element 
 #### YOU CAN DO SOME PRETTY CRAZY THINGS WITH CSS3 ANIMATIONS.
 
 CSS Solar System: 
-http://codepen.io/juliangarnier/pen/idhuG
+http://codepen.io/juliangarnier/pen/idhuG <br>
+
 CSS Spy Drone: 
-http://codepen.io/bertanyaman/pen/YWGLJK
+http://codepen.io/bertanyaman/pen/YWGLJK <br>
+
 Original Hover Effects: 
 http://tympanus.net/Tutorials/OriginalHoverEffects/
 
