@@ -334,12 +334,42 @@ Now that you’ve defined keyframes for your animation, you have to call the ani
 }
 ```
 
+#### Example!
+
+```
+#box{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: teal;
+  border: 10px double yellow;
+}
+
+#box{
+  -webkit-animation-name: roll;
+  -webkit-animation-duration: 7s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes roll {
+  0% {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  100% {
+    margin-left: 200px; 
+    margin-top: 150px;
+  }
+}
+```
+
 #### Exercise
 Try constructing the animation illustrated on the Keyframes slide! Your element doesn’t necessarily have to be circular, but it should travel to the right and then the bottom of the screen.
 
 <img src="keyframes.jpg">
 
-#### YOU CAN DO SOME PRETTY CRAZY THINGS WITH CSS3 ANIMATIONS.
+#### YOU CAN DO SOME PRETTY CRAZY COOL THINGS WITH CSS3 ANIMATIONS.
 
 CSS Solar System: 
 http://codepen.io/juliangarnier/pen/idhuG <br>
