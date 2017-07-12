@@ -1,0 +1,50 @@
+h1 {
+  font-family: "Georgia";
+  color: #db4dff;
+  font-size: 30px;
+  margin-left: 20px;
+}
+#header{
+  margin-top: 10px;
+  border: 5px solid black;
+  padding: 20px;
+  height: 70px;
+  background-color: white;
+  margin: 0 auto;
+} 
+#blue {
+  border: 5px solid black;
+  padding: 20px;
+  height: 70px;
+  background-color: lightblue;
+  margin: 0 auto;
+} 
+#white {
+  border: 5px solid black;
+  padding: 20px;
+  height: 70px;
+  background-color: white;
+  margin: 0 auto;
+  } 
+p{
+  font-family: "Tacoma", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+span{
+  font-family: "Helvetica";
+  font-size: 26px;
+}
+#red{
+  color: red;
+}
+#green{
+  color: green;
+}
+body {
+  margin-top: 30px;
+  margin-left: 420px;
+  width: 500px;
+  text-align: center;
+  background-color: lightgreen;
+}
