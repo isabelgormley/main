@@ -43,10 +43,12 @@ function add(x,y){
 	const sum = x+y;
 	return sum
 }
+
 const newSum = sum+10;
 console.log(newSum);
 ```
-
+```
 function takeName(name){
 	console.log(name+' is great');
 }
+```

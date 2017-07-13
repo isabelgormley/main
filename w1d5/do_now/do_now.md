@@ -8,7 +8,7 @@ When you see a $ in relation to command-line syntax, that just means to type the
 
 #### 2. In your repo:  
   
-In `do_now' in `w1d5`, we're going to make and access a folder called startup:  
+In `do_now' in w1d5, we're going to make and access a folder called startup:  
  
 1.  ```mkdir startup```
 2. `$ cd startup`  
