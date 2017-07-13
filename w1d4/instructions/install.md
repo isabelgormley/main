@@ -43,7 +43,7 @@ ex: `alee90/gc-swim` under it, it will also say `forked from gc-swim/main`
 
 
 ### GitHub - Clone your forked repo into your local
-• From your fork, right click and copy the highlighted text next to your HTTPS (click CLONE or DOWNLOAD, then make sure you copy the URL with HTTPS on it)
+• From your fork, right click and copy the highlighted text next to your SSH key.
 • Open up Terminal
 • Make sure you are in your root/home directory (the folder you named for this class)
   - Type `cd` and hit `enter`

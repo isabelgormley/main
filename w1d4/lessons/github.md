@@ -209,7 +209,7 @@ Now that they are sync'ed up, let's push your local commits to your remote!
 
 - Pulling
 	Updating from a repo
-	`git pull origin master` note that master is the branch name and origin is the more name
+	`git pull origin master` note that master is the branch name and origin is the remote name
 
 - Forking
 	Creating a remote github version of repo
@@ -220,7 +220,7 @@ Now that they are sync'ed up, let's push your local commits to your remote!
 -----
 ### RECAP FOR CLASS
 
-• Pulling new updates that the instructors make from /gc-swim/main
+• Pulling new updates that the teacher makes from /gc-swim/main
 	- git pull upstream master
 
 • Pushing your new work to YOUR forked repo
