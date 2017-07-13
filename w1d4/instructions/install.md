@@ -43,10 +43,9 @@ ex: `alee90/gc-swim` under it, it will also say `forked from gc-swim/main`
 
 
 ### GitHub - Clone your forked repo into your local
-• From your fork, right click and copy the highlighted text next to your SSH
-  ![SSH](ssh.png)
+• From your fork, right click and copy the highlighted text next to your HTTPS (click CLONE or DOWNLOAD, then make sure you copy the URL with HTTPS on it)
 • Open up Terminal
-• Make sure you are in your root/home directory (the folder you named your computer)
+• Make sure you are in your root/home directory (the folder you named for this class)
   - Type `cd` and hit `enter`
 • Type the following into terminal when you are in your home directory, do not hit enter yet!
   - `git clone ` _paste your ssh_  Make sure there is a space between `clone` and the ssh you are pasting
@@ -58,8 +57,8 @@ ex: `alee90/gc-swim` under it, it will also say `forked from gc-swim/main`
 - CD into your main folder
 - Confirm you are in the right place
 	- `ls -la`
-	- It should return back the contents of the Omega Supreme folder
-- `git remote add upstream git@github.com:gc-swim/main.git`
+	- It should return back the contents of the 'main' folder
+- `git remote add upstream https://github.com/gc-swim/main.git` (we're using HTTPS, not SSH for this class)
 - Confirm everything is good...
 	- `git remote`
 	- You should see both `origin` and `upstream`
