@@ -23,7 +23,7 @@ The website of fashion brand Brook & Lyn has a simple layout. The visual element
 
 Think of file structure as a list.
 
-<img src="./images/file_structure.jpg"/>
+<img src="./brook_lyn/images/file_structure.jpg"/>
  
 If my index.html is at the very beginning of fun_thangs_folder, and I need to link pic1.jpg, I'd do this...
 
