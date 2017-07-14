@@ -35,13 +35,13 @@ console.log(x); // 5
 
 ```
 const name = 'Andrew';
-console.log(name[0]) //'a'
+console.log(name[0]); //'a'
 ```
 
 ```
 function add(x,y){
 	const sum = x+y;
-	return sum
+	return sum;
 }
 
 const newSum = sum+10;
@@ -51,4 +51,5 @@ console.log(newSum);
 function takeName(name){
 	console.log(name+' is great');
 }
+takeName('Andrew');
 ```
