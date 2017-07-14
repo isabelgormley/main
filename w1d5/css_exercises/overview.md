@@ -12,42 +12,34 @@ The website of fashion brand Brook & Lyn has a simple layout. The visual element
 
 1. Write the HTML and CSS necessary to recreate the layout seen below.
 
+#### Layout
+
+![image](mockup.png)
+
 #### Hints:
 
 1. Look up and figure out the difference between display: inline; vs. display: inline-block;
-2. Use relative pathing to link the pictures to your page.  Remember file structure.
+2. Use **relative pathing** to link the pictures to your page.  Remember file structure.
 
 Think of file structure as a list.
 
-```
-fun_things_folder
-	>>index.html
-		- folder_a
-			>>pic.jpg
-				I)
-				>>pic2.jpg
-		- folder_b
-				I)
-				II)
-		- folder_c
-				I)
-				II)
-				III)
-					>>pic3.jpg
-```
+<img src="./images/file_structure.jpg"/>
  
-If I'm initially at fun_things_folder, and I need to link pic.jpg, I'd do this...
+If my index.html is at the very beginning of fun_thangs_folder, and I need to link pic1.jpg, I'd do this...
 
 ```
-<img src="./folder_a/pic.jpg"/>
+<img src="./folder_a/pic1.jpg"/>
 ```
 
 If I need to get to get pic3.jpg, I'd do this...
 
 ```
-<img src="./folder_c/iii/pic3.jpg"/>
+<img src="./folder_b/pic3.jpg"/>
 ```
 
-#### Layout
+If I need to get pic4.jpg, I'd do this...
 
-![image](mockup.png)
+```
+<img src="./folder_c/unfun_folder/pic4.jpg"/>
+```
+
