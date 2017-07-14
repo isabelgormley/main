@@ -19,20 +19,22 @@ The website of fashion brand Brook & Lyn has a simple layout. The visual element
 
 Think of file structure as a list.
 
-fun_things_folder
-	>>index.html
-		- folder_a
-			>>pic.jpg
-				I)
-				>>pic2.jpg
-		- folder_b
-				I)
-				II)
-		- folder_c
-				I)
-				II)
-				III)
-					>>pic3.jpg
+```
+fun_things_folder<br>
+	>>index.html<br>
+		- folder_a<br>
+			>>pic.jpg<br>
+				I)<br>
+				>>pic2.jpg<br>
+		- folder_b<br>
+				I)<br>
+				II)<br>
+		- folder_c<br>
+				I)<br>
+				II)<br>
+				III)<br>
+					>>pic3.jpg<br>
+```
  
 If I'm initially at fun_things_folder, and I need to link pic.jpg, I'd do this...
 
