@@ -1,0 +1,40 @@
+body{
+	font-family: 'PT Serif', serif;
+	color:dimgrey;
+}
+#title{
+}
+#photo{
+	display: block;
+    margin: auto;
+    width: 80%;
+}
+.text{
+	display: block;
+    margin: auto;
+    width: 80%;
+}
+#date{
+	color:blue;
+}
+.pics{
+	display: block;
+    margin: auto;
+    width: 80%;
+}
+#nbc{
+	border: 6px solid darkgrey;
+	width:235px;
+}
+#huff{
+	border: 6px solid darkgrey;
+	width:235px;
+}
+#lucky{
+	border: 6px solid darkgrey;
+	width:235px;
+}
+#marie{
+	border: 6px solid darkgrey;
+	width:235px;
+}
